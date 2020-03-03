@@ -28,3 +28,9 @@ def find(r):
     if par[r]==r:
         return r
     return find(par[r])
+
+
+
+if __name__ == "__main__":
+    pass
+    
