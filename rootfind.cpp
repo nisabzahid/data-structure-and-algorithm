@@ -32,7 +32,7 @@ int main(){
 
     
     cout<<"squir root of : "<<x<<" : ";
-    cout<<root(x,left,right);
+    printf("%.10lf",root(x,left,right));
     cout<<endl; 
    }
     return 0;
