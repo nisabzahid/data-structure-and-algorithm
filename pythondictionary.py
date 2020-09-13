@@ -15,4 +15,4 @@ if __name__ == "__main__":
         'Code.py': 'Stan',
         'Output.txt': 'Randy'
     }   
-    print(group_by_owners(files))
+    print(group_by_owners(files)) # should return {'Randy': ['Input.txt', 'Output.txt'], 'Stan': ['Code.py']}
